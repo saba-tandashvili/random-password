@@ -1,0 +1,47 @@
+body {
+    background-color: #34495e;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.vault-interface {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 350px;
+}
+
+.interface-title {
+    margin-top: 0;
+}
+
+#token-output {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#trigger-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#trigger-btn:hover {
+    background-color: #2ecc71;
+}
